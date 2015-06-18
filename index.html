@@ -6,7 +6,7 @@
 <!--[if IE 8]>
 <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js fsvs"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
     <title>Custom Title</title>
@@ -25,6 +25,11 @@
     <!-- Font-awesome CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
 
+    <!--Vendors-->
+    <link rel="stylesheet" href="vendors/SlidePushMenus/css/component.css"/>
+    <link rel="stylesheet" href="vendors/SlidePushMenus/css/default.css"/>
+
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/styles.css"/>
 
@@ -36,8 +41,74 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+
 </head>
-<body>
-    <div cla
+<body class="cbp-spmenu-push">
+<!--Push menu-->
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <h3>Menu</h3>
+    <a href="#">Celery seakale</a>
+    <a href="#">Dulse daikon</a>
+    <a href="#">Zucchini garlic</a>
+    <a href="#">Catsear azuki bean</a>
+    <a href="#">Dandelion bunya</a>
+    <a href="#">Rutabaga</a>
+</nav>
+<!--End of Push menu-->
+<div class="main-body-wrap">
+    <div class="header navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <button id="showLeft">Show/Hide Left Slide Menu</button>
+            <div class="logo">
+                <h1 class="hide">Site Key Word</h1>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+    <div id="slider">
+        <div class="slider-wrap">
+            <div id="box">
+                <div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <a href="#" onclick="alert(1);">111111</a>
+                </div>
+                <div>2</div>
+                <div>3</div>
+                <div>7</div>
+            </div>
+            <div id="contorl" class="px">
+                <span class="db on"></span>
+                <span class="db"></span>
+                <span class="db"></span>
+                <span class="db"></span>
+            </div>
+        </div>
+    </div>
+    <div class="content-block">
+        <div class="small-nav text-center">
+            <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+</div>
+<!--jquery cdn-->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!--vendors-->
+
+<script src="vendors/SlidePushMenus/js/classie.js"></script>
+<script src="vendors/onepagescroll/js/jquery.onepagescroll.js"></script>
+
+
+
+<!--script file-->
+<script src="js/script.js"></script>
+
 </body>
 </html>
