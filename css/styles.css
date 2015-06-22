@@ -73,6 +73,15 @@ body {
     max-height: 43px;
 }
 
+.right-panel{
+    padding: 15px 0;
+}
+
+.right-panel a{
+    line-height: 20px;
+    text-decoration: none;
+}
+
 /*slider*/
 #slider{
     width: 100%;
@@ -283,4 +292,55 @@ body {
     font-size: 25px;
     color: #fff;
     padding: 2px 4px;
+}
+
+
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-height: 150px;
+    background: #000;
+}
+
+.footer-wrap{
+    padding: 10px 0;
+}
+
+.social-icons{
+    padding: 12px 0;
+}
+
+.social-btn ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-btn ul li i{
+    color: #000;
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.copyright a,.copyright p{
+font-size: 12px;
+    color: #b3b3b3;
+}
+
+.copyright a{
+    text-decoration: none;
+}
+
+ul.footer-nav li{
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.copyright{
+    padding: 12px 0;
 }
