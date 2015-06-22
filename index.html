@@ -62,27 +62,44 @@
 <div class="main-body-wrap">
     <div class="header navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <button id="showLeft"><i class="mdi-navigation-menu"></i> </button>
-            <div class="logo">
-                <h1 class="hide">Site Key Word</h1>
-                <a href="#"></a>
+            <div class="col-md-2">
+                <button id="showLeft"><i class="mdi-navigation-menu"></i> </button>
+            </div>
+            <div class="col-md-8">
+                <div class="logo text-center">
+                    <h1 class="hide">Site Key Word</h1>
+                    <a href="#"><img class="logo" src="img/logo.png"/></a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="right-nav pull-right">
+                    <!-- Dropdown Trigger -->
+                    <a class='dropdown-button' href='#' data-activates='dropdown1'><i class="mdi-navigation-more-vert"></i></a>
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="#!">one</a></li>
+                        <li><a href="#!">two</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#!">three</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <div id="slider">
         <div class="slider-wrap">
             <div id="box" class="text-center">
-                <div>
-                   <h3>Ya Te Dio Hambre?</h3>
-                    <h4>LA MEJOR FORMA PARA EXPLORAR TU CIUDAD</h4>
+                <div class="slide-item">
+                   <h3><span>Ya</span>Te Dio Hambre?</h3>
+                    <p>Encuentra los mejores lugares para salir o que te lo lleven!</p>
                     <ul class="icons">
                         <li class="icon-resturant"></li>
                     </ul>
 
                 </div>
-                <div><h2>This is First Time</h2></div>
-                <div><h2>This is First Time</h2></div>
-                <div><h2>This is First Time</h2></div>
+                <div class="slide-item"><h2>This is First Time</h2></div>
+                <div class="slide-item"><h2>This is First Time</h2></div>
+                <div class="slide-item"><h2>This is First Time</h2></div>
             </div>
             <div id="contorl" class="px">
                 <span class="db on"></span>
@@ -142,12 +159,15 @@
 <!--jquery cdn-->
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/materialize.min.js"></script>
 
 <!--vendors-->
 
 <script src="vendors/SlidePushMenus/js/classie.js"></script>
 <script src="vendors/onepagescroll/js/jquery.onepagescroll.js"></script>
 <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+
 
 
 
