@@ -28,6 +28,10 @@
     <!--Vendors-->
     <link rel="stylesheet" href="vendors/SlidePushMenus/css/component.css"/>
     <link rel="stylesheet" href="vendors/SlidePushMenus/css/default.css"/>
+    <link rel="stylesheet" href="vendors/ya-icon/ya_icon.css"/>
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.css"/>
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.transitions.css"/>
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.css"/>
 
 
     <!-- Main CSS -->
@@ -58,7 +62,7 @@
 <div class="main-body-wrap">
     <div class="header navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <button id="showLeft">Show/Hide Left Slide Menu</button>
+            <button id="showLeft"><i class="mdi-navigation-menu"></i> </button>
             <div class="logo">
                 <h1 class="hide">Site Key Word</h1>
                 <a href="#"></a>
@@ -67,16 +71,18 @@
     </div>
     <div id="slider">
         <div class="slider-wrap">
-            <div id="box">
+            <div id="box" class="text-center">
                 <div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <a href="#" onclick="alert(1);">111111</a>
+                   <h3>Ya Te Dio Hambre?</h3>
+                    <h4>LA MEJOR FORMA PARA EXPLORAR TU CIUDAD</h4>
+                    <ul class="icons">
+                        <li class="icon-resturant"></li>
+                    </ul>
+
                 </div>
-                <div>2</div>
-                <div>3</div>
-                <div>7</div>
+                <div><h2>This is First Time</h2></div>
+                <div><h2>This is First Time</h2></div>
+                <div><h2>This is First Time</h2></div>
             </div>
             <div id="contorl" class="px">
                 <span class="db on"></span>
@@ -87,11 +93,48 @@
         </div>
     </div>
     <div class="content-block">
-        <div class="small-nav text-center">
-            <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
+        <div id="small-circle-navigation" class="text-center">
+            <div class="small-nav-btn clearfix">
+                <a id="plus-ex"  class="btn-floating btn-large waves-effect waves-light red plus"><i class="mdi-content-add"></i></a>
+            </div>
+            <ul id="circle-navigation-buttons">
+                <li class="child-nav child-icon-one"><a href="#"><i class="fa fa-eye-slash"></i></a></li>
+                <li class="child-nav child-icon-two"><a href="#"><i class="fa fa-eye-slash"></i></a></li>
+                <li class="child-nav child-icon-three"><a href="#"><i class="fa fa-eye-slash"></i></a></li>
+                <li class="child-nav child-icon-four"><a href="#"><i class="fa fa-eye-slash"></i></a></li>
+                <li class="child-nav child-icon-five"><a href="#"><i class="fa fa-eye-slash"></i></a></li>
+            </ul>
+        </div>
+        <div class="content-carousel">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carousel-row" class="owl-carousel owl-theme">
+                            <div class="item"><h1>1</h1></div>
+                            <div class="item"><h1>2</h1></div>
+                            <div class="item"><h1>3</h1></div>
+                            <div class="item"><h1>4</h1></div>
+                            <div class="item"><h1>5</h1></div>
+                            <div class="item"><h1>6</h1></div>
+                            <div class="item"><h1>7</h1></div>
+                            <div class="item"><h1>8</h1></div>
+                            <div class="item"><h1>9</h1></div>
+                            <div class="item"><h1>10</h1></div>
+                            <div class="item"><h1>11</h1></div>
+                            <div class="item"><h1>12</h1></div>
+                            <div class="item"><h1>13</h1></div>
+                            <div class="item"><h1>14</h1></div>
+                            <div class="item"><h1>15</h1></div>
+                            <div class="item"><h1>16</h1></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-carousel-nav">
+
         </div>
     </div>
-
     <footer>
 
     </footer>
@@ -104,6 +147,7 @@
 
 <script src="vendors/SlidePushMenus/js/classie.js"></script>
 <script src="vendors/onepagescroll/js/jquery.onepagescroll.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 
 
 
