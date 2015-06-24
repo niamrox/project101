@@ -105,6 +105,7 @@ body {
 .content-block{
     height: 40%;
     width: 100%;
+    margin-bottom: 72px;
 }
 
 .slide-item h3{
@@ -127,10 +128,6 @@ body {
 }
 
 
-
-
-
-
 #box div:nth-of-type(1) {
     background-image: url(../img/banner/bg2.jpg);
     background-size: 100% 100%;
@@ -138,16 +135,40 @@ body {
 }
 
 #box div:nth-of-type(2) {
-    background: #1c86b5
+    background-image: url(../img/banner/bg1.jpg);
+    background-size: 100% 100%;
 }
 
 #box div:nth-of-type(3) {
-    background: #91bc1e
+    background-image: url(../img/banner/bg3.jpg);
+    background-size: 100% 100%;
 }
 
 #box div:nth-of-type(4) {
-    background: #ea17c1
+    background-image: url(../img/banner/bg1.jpg);
+    background-size: 100% 100%;
 }
+
+
+ul.slider-icons{
+ margin: 25px 0;
+}
+
+.slider-icons li{
+    margin:15px 25px;
+    display: inline-block;
+}
+
+.slider-icons li i{
+    font-size: 35px;
+    color: #ed1b24;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: #fff;
+    padding: 10px;
+}
+
 
 #contorl {
     height: 200px;
@@ -181,8 +202,14 @@ body {
     margin: 0 auto;
     text-align: center;
     margin-top: -82px;
-    padding: 0 0 150px 0;
+    padding: 0;
+    width: 420px;
+    height: 250px;
+    transition: all 500ms;
+}
 
+.circle-hide{
+    height: 166px !important;
 }
 
 #plus-ex {
@@ -255,26 +282,26 @@ body {
 }
 
 .child-icon-one{
-    left: 37%;
-    top: 30%;
+    left: 10%;
+    top: 37%;
 }
 .child-icon-two{
-    left: 41.8%;
-    top: 52%;
+    left: 23.8%;
+    top: 63%;
 }
 .child-icon-three{
-    left: 47.8%;
-    top: 60%;
+    left: 42.8%;
+    top: 78%;
 }
 
 .child-icon-four{
-    left: 53.6%;
-    top: 52%;
+    left: 62.6%;
+    top: 63%;
 }
 
 .child-icon-five{
-    left: 58%;
-    top: 30%;
+    left: 76%;
+    top: 37%;
 }
 
 /*Push menu override*/
@@ -301,7 +328,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    max-height: 150px;
+    max-height: 72px;
     background: #000;
 }
 

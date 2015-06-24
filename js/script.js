@@ -91,13 +91,17 @@ jQuery( document ).ready(function( $ ){
 $(function() {
     $('#plus-ex').click(function(){
         if($(this).hasClass('plus')){
-            $(this).removeClass('plus')
+            $(this).removeClass('plus');
             $(this).addClass('ex');
             $('#circle-navigation-buttons li').addClass('out');
+            $('#small-circle-navigation').addClass('circle-hide');
+            $('.sponsor-carousel-wrap').addClass('hidden');
         } else {
             $(this).removeClass('ex');
             $(this).addClass('plus');
             $('#circle-navigation-buttons li').removeClass('out');
+            $('#small-circle-navigation').removeClass('circle-hide');
+            $('.sponsor-carousel-wrap').removeClass('hidden');
         }
         return false;
     });
@@ -143,4 +147,30 @@ $(document).ready(function() {
 
 });
 
+
+$(document).ready(function() {
+
+    //Sort random function
+    function random(owlSelector){
+        owlSelector.children().sort(function(){
+            return Math.round(Math.random()) - 0.5;
+        }).each(function(){
+            $(this).appendTo(owlSelector);
+        });
+    }
+
+    $("#sponsor-carousel-navigation").owlCarousel({
+        navigation: true,
+        navigationText: [
+            "<i class='icon-chevron-left icon-white'></i>",
+            "<i class='icon-chevron-right icon-white'></i>"
+        ],
+        beforeInit : function(elem){
+            //Parameter elem pointing to $("#owl-demo")
+            random(elem);
+        }
+
+    });
+
+});
 
