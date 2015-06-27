@@ -75,7 +75,7 @@ jQuery( document ).ready(function( $ ) {
 //one page slider
 jQuery( document ).ready(function( $ ){
     var onepage = $("#box").onepagescroll({
-        box: "div",
+        box: "div.slide-item",
         cycle: 0
     }, function (o) {
         $("#contorl .on").removeClass("on");
@@ -89,19 +89,21 @@ jQuery( document ).ready(function( $ ){
 
 //small navigation
 $(function() {
-    $('#plus-ex').click(function(){
+    $('.plus-ex').click(function(){
         if($(this).hasClass('plus')){
             $(this).removeClass('plus');
             $(this).addClass('ex');
             $('#circle-navigation-buttons li').addClass('out');
             $('#small-circle-navigation').addClass('circle-hide');
             $('.sponsor-carousel-wrap').addClass('hidden');
+            $('.circle-nav').addClass('hide-button');
         } else {
             $(this).removeClass('ex');
             $(this).addClass('plus');
             $('#circle-navigation-buttons li').removeClass('out');
             $('#small-circle-navigation').removeClass('circle-hide');
             $('.sponsor-carousel-wrap').removeClass('hidden');
+            $('.circle-nav').removeClass('hide-button');
         }
         return false;
     });
@@ -118,7 +120,7 @@ $(document).ready(function() {
     owl.owlCarousel({
         pagination:false,
         autoPlay:true,
-        items : 10, //10 items above 1000px browser width
+        items : 5, //10 items above 1000px browser width
         itemsDesktop : [1000,5], //5 items between 1000px and 901px
         itemsDesktopSmall : [900,3], // betweem 900px and 601px
         itemsTablet: [600,2], //2 items between 600 and 0

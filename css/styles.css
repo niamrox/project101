@@ -129,23 +129,23 @@ body {
 
 
 #box div:nth-of-type(1) {
-    background-image: url(../img/banner/bg2.jpg);
+    background-image: url(../img/bg/1.jpg);
     background-size: 100% 100%;
 
 }
 
 #box div:nth-of-type(2) {
-    background-image: url(../img/banner/bg1.jpg);
+    background-image: url(../img/bg/3.jpg);
     background-size: 100% 100%;
 }
 
 #box div:nth-of-type(3) {
-    background-image: url(../img/banner/bg3.jpg);
+    background-image: url(../img/bg/8.jpg);
     background-size: 100% 100%;
 }
 
 #box div:nth-of-type(4) {
-    background-image: url(../img/banner/bg1.jpg);
+    background-image: url(../img/bg/8.jpg);
     background-size: 100% 100%;
 }
 
@@ -195,21 +195,41 @@ ul.slider-icons{
 }
 
 
+
+/*cards*/
+.card .card-profile-image {
+    width: 68px;
+    height: 68px;
+    position: relative;
+    top: -45px;
+    margin-left: 0px !important;
+    z-index: 1;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-profile-image:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+
 /*small navigation*/
 #small-circle-navigation {
     position: relative;
     z-index: 20;
     margin: 0 auto;
     text-align: center;
-    margin-top: -82px;
+    margin-top: -62px;
     padding: 0;
     width: 420px;
-    height: 250px;
+    height: 225px;
     transition: all 500ms;
 }
 
 .circle-hide{
-    height: 166px !important;
+    height: 100px !important;
 }
 
 #plus-ex {
@@ -218,7 +238,7 @@ ul.slider-icons{
 
 .small-nav-btn {
     display: inline-block;
-    padding: 40px;
+    padding: 25px;
     background: rgba(255, 255, 255, 0.73);
     border-radius: 50%;
     z-index: 9999;
@@ -227,13 +247,13 @@ ul.slider-icons{
 
 
 .small-nav-btn .btn-floating.btn-large{
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
 }
 
 .small-nav-btn .btn-floating.btn-large i{
-    line-height: 85px;
-    font-size: 58px;
+    line-height: 70px;
+    font-size: 50px;
     font-weight: 300;
 }
 
@@ -253,10 +273,10 @@ ul.slider-icons{
 
 #small-circle-navigation ul i {
     font-size: 32px;
-    color: #fff;
-    background: #ed1b24;
-    border-radius: 100%;
-    padding: 15px;
+}
+
+.hide-button .row{
+    margin-bottom: 0;
 }
 
 /* CSS3 Animations for small btn nav
@@ -276,18 +296,18 @@ ul.slider-icons{
 }
 
 #small-circle-navigation li.out {
-    left: 48% !important;
-    top: 17% !important;
+    left: 44% !important;
+    top: 26% !important;
     -webkit-transform: rotate(-720deg);
 }
 
 .child-icon-one{
-    left: 10%;
-    top: 37%;
+    left: 18%;
+    top: 45%;
 }
 .child-icon-two{
-    left: 23.8%;
-    top: 63%;
+    left: 28.8%;
+    top: 65%;
 }
 .child-icon-three{
     left: 42.8%;
@@ -295,13 +315,13 @@ ul.slider-icons{
 }
 
 .child-icon-four{
-    left: 62.6%;
-    top: 63%;
+    left: 56%;
+    top: 65%;
 }
 
 .child-icon-five{
-    left: 76%;
-    top: 37%;
+    left: 67%;
+    top: 45%;
 }
 
 /*Push menu override*/
@@ -372,3 +392,4 @@ ul.footer-nav li{
 .copyright{
     padding: 12px 0;
 }
+
