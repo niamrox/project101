@@ -197,6 +197,62 @@ ul.slider-icons{
 
 
 /*cards*/
+
+.news-block{
+    border-top:1px solid #e7e7e8;
+    position: relative;
+    bottom: -500px;
+    transition: all 500ms;
+}
+
+.news-block-show{
+    bottom: 0px;
+}
+
+.news-block .card .card-content{
+    padding: 0 10px 0 10px;
+    position: relative;
+}
+
+.news-content .card-title{
+    color: #1a1a1a;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40px !important;
+}
+
+.news-title p{
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.news-block .card .card-image{
+    transition: all 500ms;
+    overflow: hidden;
+}
+
+.news-block .full-image{
+    height: 92px;
+}
+
+.news-block .half-image{
+    height: 50px;
+}
+
+.show-fav{
+    display: block !important;
+}
+
+.card-action{
+    display: none;
+}
+
+.news-block .card .card-content a{
+    text-decoration: none;
+    margin: 0;
+}
+
 .card .card-profile-image {
     width: 68px;
     height: 68px;
@@ -214,6 +270,69 @@ ul.slider-icons{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
+
+.news-title{
+    padding-right: 10px;
+}
+
+.btn-fav-content{
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}
+
+.card-action{
+    padding: 15px !important;
+}
+
+.card-action i{
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 100%;
+    color: #000;
+}
+
+
+.card-action span {
+    line-height: 20px;
+    padding: 0 10px 10px 10px;
+    vertical-align: top;
+}
+
+.red-li{
+    border-left: 5px solid red;
+}
+
+.title-header{
+    padding: 10px 0;
+}
+
+.news-block-item{
+    margin: 0 15px;
+}
+
+#sponsor-carousel-toggle{
+    border-top:1px solid #e7e7e8;
+    position: fixed;
+    width: 100%;
+    max-height: 50px;
+    bottom: 62px;
+}
+
+#sponsor-carousel-toggle a{
+    text-decoration: none;
+}
+
+#sponsor-carousel-toggle i{
+    font-size: 80px;
+    line-height: 38px;
+    color: #b3b3b3;
+}
+
+.hide-toggle{
+    display: none;
+}
 
 /*small navigation*/
 #small-circle-navigation {
@@ -278,6 +397,7 @@ ul.slider-icons{
 .hide-button .row{
     margin-bottom: 0;
 }
+
 
 /* CSS3 Animations for small btn nav
 ================================================================= */

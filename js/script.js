@@ -97,6 +97,8 @@ $(function() {
             $('#small-circle-navigation').addClass('circle-hide');
             $('.sponsor-carousel-wrap').addClass('hidden');
             $('.circle-nav').addClass('hide-button');
+            $('.news-block').addClass('news-block-show');
+            $('#sponsor-carousel-toggle').addClass('hide-toggle');
         } else {
             $(this).removeClass('ex');
             $(this).addClass('plus');
@@ -104,11 +106,39 @@ $(function() {
             $('#small-circle-navigation').removeClass('circle-hide');
             $('.sponsor-carousel-wrap').removeClass('hidden');
             $('.circle-nav').removeClass('hide-button');
+            $('.news-block').removeClass('news-block-show');
+            $('#sponsor-carousel-toggle').removeClass('hide-toggle');
         }
         return false;
     });
 });
 
+
+//toggle navigation
+$(function() {
+    $('.btn-toggle').click(function(){
+        if($('.plus-ex').hasClass('plus')){
+            $('.plus-ex').removeClass('plus');
+            $('.plus-ex').addClass('ex');
+            $('#circle-navigation-buttons li').addClass('out');
+            $('#small-circle-navigation').addClass('circle-hide');
+            $('.sponsor-carousel-wrap').addClass('hidden');
+            $('.circle-nav').addClass('hide-button');
+            $('.news-block').addClass('news-block-show');
+            $('#sponsor-carousel-toggle').addClass('hide-toggle');
+        } else {
+            $('.plus-ex').removeClass('ex');
+            $('.plus-ex').addClass('plus');
+            $('#circle-navigation-buttons li').removeClass('out');
+            $('#small-circle-navigation').removeClass('circle-hide');
+            $('.sponsor-carousel-wrap').removeClass('hidden');
+            $('.circle-nav').removeClass('hide-button');
+            $('.news-block').removeClass('news-block-show');
+            $('#sponsor-carousel-toggle').removeClass('hide-toggle');
+        }
+        return false;
+    });
+});
 
 
 //
@@ -174,5 +204,23 @@ $(document).ready(function() {
 
     });
 
+});
+
+
+//card toggle
+//one page slider
+jQuery( document ).ready(function( $ ){
+    $( ".btn-fav" ).click(function() {
+        if($('.card-image').hasClass('full-image')){
+            $('.card-image').removeClass('full-image');
+            $('.card-image').addClass('half-image');
+            $('.card-action').addClass('show-fav');
+        } else {
+            $('.card-image').removeClass('half-image');
+            $('.card-image').addClass('full-image');
+            $('.card-action').removeClass('show-fav');
+        }
+        return false;
+    });
 });
 
