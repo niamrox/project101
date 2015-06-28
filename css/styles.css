@@ -59,10 +59,25 @@ body {
     z-index: 1;
 }
 
+/*topbar*/
+.top-bar-wrap {
+    padding: 15px;
+}
+
+.row{
+    margin-bottom: 0;
+}
+
+
+
 /*header*/
 .header{
     background: rgba(204, 0, 5, 0.64);
     border: none;
+}
+
+.navbar{
+    margin-bottom: 0;
 }
 
 .logo{
@@ -91,6 +106,21 @@ body {
     overflow: hidden;
 }
 
+
+.intro-slider-wrapper{
+    position: absolute;
+    top: 82px;
+    left: 282px;
+    z-index: 9999;
+
+}
+
+span.text-big{
+    font-size: 95px;
+    font-weight: 700;
+    color: #fff;
+}
+
 .slider-wrap{
     position: relative;
     width: 100%;
@@ -114,6 +144,7 @@ body {
     text-transform: uppercase;
     color: #fff;
     line-height: 120px;
+    padding-left: 150px;
 }
 
 .slide-item h3 span{
