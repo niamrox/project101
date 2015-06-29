@@ -61,7 +61,7 @@ body {
 
 /*topbar*/
 .top-bar-wrap {
-    padding: 10px 15px;
+    padding:0;
     background: #e6e6e6;
 }
 
@@ -83,7 +83,16 @@ body {
 
 
 .top-bar-space{
-    top: 60px;
+    top: 52px;
+}
+
+.social-follow li{
+    padding:6px 15px;
+    border-right: 1px solid #ccc;
+}
+
+.social-follow li:last-child{
+    border-right: none;
 }
 
 .social-follow li a{
@@ -105,13 +114,23 @@ body {
 }
 
 .topbar-language li a{
-    line-height: 35px;
+    line-height: 50px;
+    color: #4d4d4d;
+    text-decoration: none;
+    padding: 18px 15px;
 }
 
+ul.topbar-language li:hover a,ul.topbar-language li:focus a,ul.topbar-language li:active a{
+    background: #ccc;
+}
+
+.topbar-language li.inactive a{
+    color: #b3b3b3;
+}
 
 /*header*/
 .header{
-    background: rgba(204, 0, 5, 0.64);
+    background: rgba(0, 0, 0, 0.3);
     border: none;
 }
 
@@ -120,7 +139,7 @@ body {
 }
 
 .navbar-default{
-    transition: all 500ms;
+    transition: all 200ms;
 }
 
 .logo{
@@ -133,12 +152,15 @@ body {
 }
 
 .right-panel{
-    padding: 15px 0;
+    padding:0;
 }
 
-.right-panel a{
-    line-height: 20px;
+
+.right-nav li a{
+    line-height: 50px;
     text-decoration: none;
+    color: #fff;
+    font-size: 35px;
 }
 
 /*slider*/

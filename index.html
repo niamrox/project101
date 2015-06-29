@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.css"/>
     <link rel="stylesheet" href="vendors/owl-carousel/owl.transitions.css"/>
     <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.css"/>
+    <link rel="stylesheet" href="vendors/MorphingSearch/css/component.css"/>
 
 
     <!-- Main CSS -->
@@ -59,6 +60,7 @@
     <a href="#">Rutabaga</a>
 </nav>
 <!--End of Push menu-->
+
 <div class="main-body-wrap">
     <div class="top-bar top-bar-hidden">
         <div class="top-bar-wrap">
@@ -77,7 +79,7 @@
                     </div>
                     <div class="col-md-6">
                         <ul class="topbar-language list-unstyled list-inline pull-right">
-                            <li><a href="#">Idoma</a></li>
+                            <li class="inactive"><a href="#">Idoma</a></li>
                             <li><a href="#">Es</a></li>
                             <li><a href="#">En</a></li>
                         </ul>
@@ -89,20 +91,23 @@
     <!--navbar-fixed-top-->
     <div class="header navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="col-md-2">
-                <button id="showLeft"><i class="mdi-navigation-menu"></i></button>
-            </div>
-            <div class="col-md-8">
-                <div class="logo text-center">
-                    <h1 class="hide">Site Key Word</h1>
-                    <a href="#"><img class="logo" src="img/logo.png"/></a>
+            <div class="row">
+                <div class="col-md-2">
+                    <button id="showLeft"><i class="mdi-navigation-menu"></i></button>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="right-panel pull-right">
-                    <!--More menu Toggle-->
-                    <a class='ya-more-menu-bar' href='javascript:void(0)'><i class="mdi-navigation-more-vert"></i></a>
+                <div class="col-md-8">
+                    <div class="logo text-center">
+                        <h1 class="hide">Site Key Word</h1>
+                        <a href="#"><img class="logo" src="img/logo.png"/></a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="right-panel pull-right">
+                        <ul class="list-unstyled list-inline right-nav">
+                            <li><a class='ya-more-menu-bar' href='javascript:void(0)'><i class="mdi-navigation-more-vert"></i></a></li>
+                        </ul>
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -583,6 +588,7 @@
 <script src="vendors/SlidePushMenus/js/classie.js"></script>
 <script src="vendors/onepagescroll/js/jquery.onepagescroll.js"></script>
 <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendors/MorphingSearch/js/classie.js"></script>
 
 
 <!--script file-->
