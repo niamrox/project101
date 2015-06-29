@@ -208,7 +208,6 @@ $(document).ready(function() {
 
 
 //card toggle
-//one page slider
 jQuery( document ).ready(function( $ ){
     $( ".btn-fav" ).click(function() {
         if($('.card-image').hasClass('full-image')){
@@ -219,6 +218,23 @@ jQuery( document ).ready(function( $ ){
             $('.card-image').removeClass('half-image');
             $('.card-image').addClass('full-image');
             $('.card-action').removeClass('show-fav');
+        }
+        return false;
+    });
+});
+
+
+//top bar more menu
+$(function() {
+    $('.ya-more-menu-bar').click(function(){
+        if($('.top-bar').hasClass('top-bar-hidden')){
+            $('.top-bar').removeClass('top-bar-hidden');
+            $('.top-bar').addClass('top-bar-visible');
+            $('.navbar-default ').addClass('top-bar-space');
+        } else {
+            $('.top-bar').removeClass('top-bar-visible');
+            $('.top-bar').addClass('top-bar-hidden');
+            $('.navbar-default ').removeClass('top-bar-space');
         }
         return false;
     });

@@ -61,13 +61,52 @@ body {
 
 /*topbar*/
 .top-bar-wrap {
-    padding: 15px;
+    padding: 10px 15px;
+    background: #e6e6e6;
 }
 
 .row{
     margin-bottom: 0;
 }
 
+.top-bar-hidden{
+    position: relative;
+    height: 0;
+    transition: all 800ms;
+}
+
+
+.top-bar-visible{
+    position: relative;
+    height: auto;
+}
+
+
+.top-bar-space{
+    top: 60px;
+}
+
+.social-follow li a{
+    color: #4d4d4d;
+}
+.social-follow li i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #4d4d4d;
+    font-size: 22px;
+}
+
+.social-follow li span{
+    color: #b3b3b3;
+}
+
+.topbar-language li a{
+    line-height: 35px;
+}
 
 
 /*header*/
@@ -78,6 +117,10 @@ body {
 
 .navbar{
     margin-bottom: 0;
+}
+
+.navbar-default{
+    transition: all 500ms;
 }
 
 .logo{
