@@ -278,7 +278,7 @@ $(function() {
         };
 
     // events
-    input.addEventListener( 'focus', toggleSearch );
+    document.querySelector('.search-bar-toggle').addEventListener( 'click', toggleSearch );
     ctrlClose.addEventListener( 'click', toggleSearch );
     // esc key closes search overlay
     // keyboard navigation events
@@ -293,4 +293,12 @@ $(function() {
     /***** for demo purposes only: don't allow to submit the form *****/
     morphSearch.querySelector( 'button[type="submit"]' ).addEventListener( 'click', function(ev) { ev.preventDefault(); } );
 })();
+
+
+
+$( ".search-bar-toggle" ).click(function() {
+    $( "#morphsearch" ).show( "slow" );
+});
+
+
 

@@ -34,7 +34,6 @@
     <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.css"/>
     <link rel="stylesheet" href="vendors/MorphingSearch/css/component.css"/>
 
-
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/styles.css"/>
 
@@ -60,7 +59,6 @@
     <a href="#">Rutabaga</a>
 </nav>
 <!--End of Push menu-->
-
 <div class="main-body-wrap">
     <div class="top-bar top-bar-hidden">
         <div class="top-bar-wrap">
@@ -104,8 +102,243 @@
                 <div class="col-md-2">
                     <div class="right-panel pull-right">
                         <ul class="list-unstyled list-inline right-nav">
-                            <li><a class='ya-more-menu-bar' href='javascript:void(0)'><i class="mdi-navigation-more-vert"></i></a></li>
+                            <li><a class='search-bar-toggle' href='javascript:void(0)'><i class="ya-search"></i></a>
+                            </li>
+                            <li><a class='ya-more-menu-bar' href='javascript:void(0)'><i
+                                    class="mdi-navigation-more-vert"></i></a></li>
                         </ul>
+
+                        <div id="morphsearch" class="morphsearch">
+                            <form class="morphsearch-form">
+                                <input class="morphsearch-input" type="search" placeholder="Busquda"/>
+                                <button class="morphsearch-submit" type="submit">Search</button>
+                            </form>
+                            <div class="icon-container">
+                                <div class="icon-container-wrap">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <ul class="list-inline list-unstyled">
+                                                    <li class="yellow"><a href="#"><i class="ya-rate"></i></a></li>
+                                                    <li class="green"><a href="#"><i class="ya-calendar"></i></a></li>
+                                                    <li class="red"><a href="#"><i class="ya-food"></i></a></li>
+                                                    <li class="coffee"><a href="#"><i class="ya-cafe"></i></a></li>
+                                                    <li class="purple"><a href="#"><i class="ya-bar"></i></a></li>
+                                                    <li class="ocean-blue"><a href="#"><i class="ya-home"></i></a></li>
+                                                    <li class="violet"><a href="#"><i class="ya-rec"></i></a></li>
+                                                    <li class="pink"><a href="#"><i class="ya-cine"></i></a></li>
+                                                    <li class="blue"><a href="#"><i class="ya-city"></i></a></li>
+                                                    <li class="red"><a href="#"><i class="ya-fav"></i></a></li>
+                                                    <li class="black"><a href="#"><i class="ya-new"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="morphsearch-content">
+                                <div class="dummy-column extra-padding">
+                                    <h2>búsquedas relacionadas</h2>
+
+                                    <div class="dummy-media-object gray clearfix">
+
+                                        <i class="ya-food pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes </h3>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="dummy-media-object gray clearfix">
+
+                                        <i class="ya-domi pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>reparto a domicilio</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="dummy-media-object gray clearfix">
+
+                                        <i class="ya-bar pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>reparto a domicilio</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="dummy-media-object gray clearfix">
+
+                                        <i class="ya-cafe pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>reparto a domicilio</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="dummy-media-object gray clearfix">
+
+                                        <i class="ya-banq pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>reparto a domicilio</h3>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="dummy-column">
+                                    <h2>lo trendy</h2>
+
+                                    <div class="dummy-media-object red red-li clearfix">
+
+                                        <i class="ya-food pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes </h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object purple purple-li clearfix">
+
+                                        <i class="ya-bar pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>reparto a domicilio</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object coffee coffee-li clearfix">
+
+                                        <i class="ya-cafe pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>reparto a domicilio</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object red red-li clearfix">
+                                        <i class="ya-food pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object violet violet-li clearfix">
+                                        <i class="ya-rec pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>reparto a domicilio</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dummy-column">
+                                    <h2>guía</h2>
+
+                                    <div class="dummy-media-object black black-li clearfix">
+                                        <i class="ya-new pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object black black-li clearfix">
+                                        <i class="ya-new pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object black black-li clearfix">
+                                        <i class="ya-new pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object black black-li clearfix">
+                                        <i class="ya-new pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="dummy-media-object black black-li clearfix">
+                                        <i class="ya-new pull-left"></i>
+                                        <div class="search-title pull-left">
+                                            <a href="#">
+                                                <h3>restaurantes</h3>
+                                            </a>
+                                            <span>comida española</span>
+                                        </div>
+                                        <a class="fav-no-bg pull-right" href="#">
+                                            <i class="ya-fav"></i>
+                                        </a>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <!-- /morphsearch-content -->
+                            <span class="morphsearch-close"></span>
+                        </div>
+                        <!-- /morphsearch -->
+
 
                     </div>
                 </div>
@@ -190,11 +423,21 @@
                                     class="mdi-content-add"></i></a>
                         </div>
                         <ul id="circle-navigation-buttons">
-                            <li class="child-nav child-icon-one"><a class="btn-floating btn-large waves-effect waves-light red"><i class="ya-new"></i></a></li>
-                            <li class="child-nav child-icon-two"><a class="btn-floating btn-large waves-effect waves-light red"><i class="ya-exp"></i></a></li>
-                            <li class="child-nav child-icon-three"><a class="btn-floating btn-large waves-effect waves-light red"><i class="ya-search"></i></a></li>
-                            <li class="child-nav child-icon-four"><a class="btn-floating btn-large waves-effect waves-light red"><i class="ya-rate"></i></a></li>
-                            <li class="child-nav child-icon-five"><a class="btn-floating btn-large waves-effect waves-light red"><i class="ya-tips"></i></a></li>
+                            <li class="child-nav child-icon-one"><a
+                                    class="btn-floating btn-large waves-effect waves-light red"><i
+                                    class="ya-new"></i></a></li>
+                            <li class="child-nav child-icon-two"><a
+                                    class="btn-floating btn-large waves-effect waves-light red"><i
+                                    class="ya-exp"></i></a></li>
+                            <li class="child-nav child-icon-three"><a
+                                    class="btn-floating btn-large waves-effect waves-light red"><i
+                                    class="ya-search"></i></a></li>
+                            <li class="child-nav child-icon-four"><a
+                                    class="btn-floating btn-large waves-effect waves-light red"><i class="ya-rate"></i></a>
+                            </li>
+                            <li class="child-nav child-icon-five"><a
+                                    class="btn-floating btn-large waves-effect waves-light red"><i class="ya-tips"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -208,6 +451,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="title-header text-center">nuestra selección de lugares, eventos y actividades</h3>
+
                         <div id="carousel-row" class="owl-carousel owl-theme">
                             <!--single item-->
                             <div class="item news-block-item">
@@ -225,10 +469,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -259,10 +505,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -293,10 +541,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -327,10 +577,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -361,10 +613,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -395,10 +649,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -429,10 +685,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -463,10 +721,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -497,10 +757,12 @@
                                         <div class="news-content">
                                             <div class="news-title">
                                                 <span class="card-title">Pussy pizza</span>
+
                                                 <p>Italiana, Comida Rápida</p>
                                             </div>
                                             <div class="btn-fav-content">
-                                                <a class="btn-fav" href="javascript:void(0)"><i class="mdi-navigation-more-vert"></i></a>
+                                                <a class="btn-fav" href="javascript:void(0)"><i
+                                                        class="mdi-navigation-more-vert"></i></a>
                                             </div>
                                         </div>
                                     </div>
