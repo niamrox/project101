@@ -72,6 +72,15 @@ jQuery( document ).ready(function( $ ) {
 
 });
 
+//add close button to push menu
+$(function() {
+    $('.btn-close-left-menu').click(function(){
+            $('#cbp-spmenu-s1').removeClass('cbp-spmenu-open');
+    });
+});
+
+
+
 //one page slider
 jQuery( document ).ready(function( $ ){
     var onepage = $("#box").onepagescroll({
