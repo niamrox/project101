@@ -616,8 +616,58 @@ form.left-menu-form .input-group-lg>.form-control, form.left-menu-form .input-gr
 .menu-footer{
     margin: 20px 0;
     border-top: 1px solid #ccc;
-    padding: 20px 0;
+    padding: 20px 50px;
     font-style: italic;
+}
+
+
+/*Left menu author dashboard*/
+.author-img-block{
+    position: relative;
+}
+
+
+img.author-img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.author-img-block .info-text{
+    position: absolute;
+    top: 22px;
+    right: 7px;
+    background: red;
+    border-radius: 100%;
+    padding: 10px;
+    border: 5px solid #fff;
+    height: 50px;
+    width: 50px;
+    line-height: 25px;
+}
+.author-intro h3{
+    font-size: 25px !important;
+    border-bottom: none !important;
+    line-height: 18px;
+    color: #fff !important;
+}
+
+.author-rank{
+    margin: 10px 0;
+}
+
+.author-rank i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.author-rank span{
+    color: red;
+}
+
+.author-intro span.subtitle{
+    font-size: 23px;
 }
 
 /*slider*/
