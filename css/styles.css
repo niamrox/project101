@@ -658,16 +658,25 @@ img.author-img {
 }
 
 .author-rank i{
-    font-size: 20px;
+    font-size: 35px;
     color: #fff;
 }
 
 .author-rank span{
     color: red;
+    font-size: 35px;
 }
 
 .author-intro span.subtitle{
     font-size: 23px;
+}
+
+.tab-content ul{
+    margin: 0 -50px;
+}
+
+.tab-content ul li a{
+   padding: 10px 48px !important;
 }
 
 /*slider*/
