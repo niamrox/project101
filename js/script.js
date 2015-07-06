@@ -70,6 +70,59 @@ jQuery( document ).ready(function( $ ) {
     }
 //    End Push Menu
 
+
+
+
+    jQuery(window).on('load', function(){
+
+
+
+        var $divs = $('.introtext .text-big'),
+            current = 0,
+            is_last = $divs.length-1,
+            time;
+
+        $divs.eq(current).addClass('show');
+
+        function showNext() {
+            if (current < $divs.length - 1) {
+                //$divs.eq(current).delay(2000).removeClass('show');
+
+            /*.fadeOut('fast', function() {
+                    current++;
+                    $divs.eq(current).fadeIn('fast').addClass('show');
+                    showNext();
+                });*/
+
+                clearTimeout(time);
+
+                time = setTimeout(function(){
+                    current++;
+                    $divs.removeClass('show');
+                    $divs.eq(current).addClass('show');
+
+                    console.log(current, is_last);
+
+                    if( current==is_last ){
+                        $(document).trigger('textSlideDone');
+                        $('.slider-wrap').removeClass('intro-hide');
+                    }
+
+                    showNext();
+                }, 2000);
+
+            }
+        }
+        showNext();
+
+
+
+
+
+    });
+
+
+
 });
 
 //add close button to push menu
