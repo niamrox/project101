@@ -751,6 +751,83 @@ img.author-img {
     font-size: 40px;
 }
 
+.tab-notification-list li{
+    float: none;
+    text-align: left;
+    padding: 20px 15px;
+    background: transparent !important;
+    padding-right: 50px;
+    position: relative;
+    clear: both;
+}
+
+.tab-notification-list li a{
+
+}
+
+.tab-notification-list li i{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 100%;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+.close-notification{
+    position: absolute;
+    right: 0;
+    top: 16px;
+    cursor: pointer;
+}
+
+.close-notification i{
+    background: none !important;
+    margin-right: 0 !important;
+
+}
+
+.user-settings li{
+    float: none;
+    clear: both;
+    text-align: left;
+    padding: 20px 15px;
+    border-bottom: 1px solid #595959;
+}
+
+.user-settings .switch label .lever{
+    margin-left: 0 !important;
+    width: 60px;
+    height: 45px;
+    border: 4px solid #fff;
+    border-radius: 25px;
+}
+
+.user-settings .switch label .lever:after{
+    width: 30px;
+    height: 30px;
+    top: 3px !important;
+    left: 3px !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    left: 18px !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after{
+    background-color: #fff !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #58dc00 !important;
+}
+
 /*slider*/
 #slider{
     width: 100%;
