@@ -189,7 +189,7 @@ ul.topbar-language li:hover a, ul.topbar-language li:focus a, ul.topbar-language
 .morphsearch.open .morphsearch-input {
     height        : 130px;
     border-bottom : none;
-    font-size     : 80px !important;
+    font-size     : 65px !important;
     }
 
 .icon-container-wrap {
@@ -211,7 +211,7 @@ ul.topbar-language li:hover a, ul.topbar-language li:focus a, ul.topbar-language
     font-size     : 25px;
     padding       : 5px;
     border-radius : 100%;
-    margin        : 15px;
+    margin        : 10px 15px;
     color         : #FFFFFF;
     width         : 40px;
     height        : 40px;
@@ -317,16 +317,20 @@ ul.topbar-language li:hover a, ul.topbar-language li:focus a, ul.topbar-language
     }
 
 .dummy-media-object {
-    padding       : 15px !important;
-    margin        : 20px 0 !important;
+    padding       : 10px 15px !important;
+    margin        : 10px 0 !important;
     border-radius : 0px !important;
     background    : #FFFFFF !important;
 
     }
 
 .extra-padding .dummy-media-object {
-    padding : 20px !important;
+    padding : 10px  20px !important;
     }
+
+.extra-padding .dummy-media-object h3{
+    line-height: 40px !important;
+}
 
 .dummy-media-object a {
     text-decoration : none;
@@ -346,11 +350,11 @@ ul.topbar-language li:hover a, ul.topbar-language li:focus a, ul.topbar-language
     }
 
 .dummy-media-object h3 {
-    vertical-align : text-top !important;
-    font-size      : 20px !important;
-    font-weight    : 300 !important;
-    line-height    : 35px;
-    display        : inherit;
+    vertical-align: text-top !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    line-height: 22px;
+    display: inherit;
 
     }
 
@@ -434,18 +438,31 @@ ul.topbar-language li:hover a, ul.topbar-language li:focus a, ul.topbar-language
     line-height   : 32px;
     }
 
+.menu-card .icon-no-bg i{
+    font-size: 15px;
+    padding: 4px 3px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    margin: 7px 0px;
+}
+
 .menu-card h3 {
-    color         : #505050 !important;
-    font-size     : 18px !important;
-    padding       : 0 !important;
-    font-weight   : 500 !important;
-    border-bottom : none !important;
-    background    : transparent !important;
-    line-height   : 24px;
+    color: #505050 !important;
+    font-size: 15px !important;
+    padding: 0 !important;
+    font-weight: 500 !important;
+    border-bottom: none !important;
+    background: transparent !important;
+    line-height: 20px;
     }
 
 .menu-card-wrap {
-    padding : 10px;
+    padding :5px 10px;
     }
 
 .margin-right {
@@ -454,7 +471,7 @@ ul.topbar-language li:hover a, ul.topbar-language li:focus a, ul.topbar-language
 
 .menu-card span {
     color     : #5C5C5C;
-    font-size : 15px;
+    font-size : 12px;
     }
 
 .menu-card .icon-no-bg i {
@@ -560,10 +577,11 @@ form.left-menu-form .input-group-addon {
     }
 
 form.left-menu-form .input-group-lg > .form-control, form.left-menu-form .input-group-lg > .input-group-addon, form.left-menu-form .input-group-lg > .input-group-btn > .btn {
-    padding       : 5px 0;
-    border        : none;
-    border-radius : 0;
-    height        : initial;
+    padding: 8px 0;
+    border: none;
+    border-radius: 0;
+    height: initial;
+    font-size: 12px;
     }
 
 .btn-form-submit {
@@ -629,30 +647,33 @@ form.left-menu-form .input-group-lg > .form-control, form.left-menu-form .input-
     }
 
 img.author-img {
-    max-width     : 250px;
-    height        : auto;
-    border-radius : 100%;
-    border        : 5px solid #FFFFFF;
+    max-width: 140px;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #FFFFFF;
+    margin: auto;
     }
 
 .author-img-block .info-text {
-    position      : absolute;
-    top           : 22px;
-    right         : 7px;
-    background    : red;
-    border-radius : 100%;
-    padding       : 10px;
-    border        : 5px solid #FFFFFF;
-    height        : 50px;
-    width         : 50px;
-    line-height   : 25px;
+    position: absolute;
+    top: 22px;
+    right: 52px;
+    background: red;
+    border-radius: 100%;
+    padding: 10px 6px;
+    border: 5px solid #FFFFFF;
+    height: 40px;
+    width: 40px;
+    line-height: 12px;
+    text-align: center;
     }
 
 .author-intro h3 {
-    font-size     : 25px !important;
-    border-bottom : none !important;
-    line-height   : 18px;
-    color         : #FFFFFF !important;
+    font-size: 16px !important;
+    border-bottom: none !important;
+    line-height: 20px;
+    color: #FFFFFF !important;
+    padding: 10px 0 0 0 !important;
     }
 
 .author-rank {
@@ -660,25 +681,25 @@ img.author-img {
     }
 
 .author-rank i {
-    font-size : 35px;
+    font-size : 20px;
     color     : #FFFFFF;
     }
 
 .author-rank span {
     color     : red;
-    font-size : 35px;
+    font-size : 20px;
     }
 
 .author-intro span.subtitle {
-    font-size : 23px;
+    font-size : 12px;
     }
 
 .tab-content ul {
-    margin : 0 -50px;
+    margin : 0 -40px;
     }
 
 .nav-tabs li a {
-    padding       : 10px 39px !important;
+    padding       : 5px 42px !important;
     margin-right  : 0;
     border-radius : 0;
     }
@@ -723,11 +744,11 @@ img.author-img {
 
 .nav-tabs > li:last-child > a {
     border-right : none !important;
-    padding      : 10px 41px !important;
+    padding      : 5px 44px !important;
     }
 
 .nav-tabs > li > a i {
-    font-size : 36px;
+    font-size : 30px;
     color     : #FFFFFF;
     }
 
@@ -738,10 +759,10 @@ img.author-img {
     }
 
 .tab-user-list li a {
-    padding         : 20px 15px;
-    border-bottom   : 1px solid #3A3A3A;
-    text-decoration : none;
-    font-size       : 30px;
+    padding: 8px 15px;
+    border-bottom: 1px solid #3A3A3A;
+    text-decoration: none;
+    font-size: 12px;
     }
 
 .tab-user-list li:hover a {
@@ -750,17 +771,21 @@ img.author-img {
     }
 
 .tab-user-list li a i {
-    font-size : 40px;
+    font-size: 20px;
+    vertical-align: middle;
     }
 
 .tab-notification-list li {
-    float         : none;
-    text-align    : left;
-    padding       : 20px 15px;
-    background    : transparent !important;
-    padding-right : 50px;
-    position      : relative;
-    clear         : both;
+    float: none;
+    text-align: left;
+    padding: 6px 15px;
+    background: transparent !important;
+    padding-right: 50px;
+    position: relative;
+    clear: both;
+    font-size: 12px;
+    border-bottom: 1px solid #3A3A3A;
+    line-height: 30px;
     }
 
 .tab-notification-list li a {
@@ -768,25 +793,26 @@ img.author-img {
     }
 
 .tab-notification-list li i {
-    font-size     : 25px;
-    padding       : 5px;
-    border-radius : 100%;
-    color         : #FFFFFF;
-    width         : 40px;
-    height        : 40px;
-    display       : inline-block;
-    text-align    : center;
-    line-height   : 28px;
-    margin-bottom : 20px;
-    float         : left;
-    margin-right  : 20px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-bottom: 10px;
     }
 
 .close-notification {
-    position : absolute;
-    right    : 0;
-    top      : 16px;
-    cursor   : pointer;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    cursor: pointer;
     }
 
 .close-notification i {
@@ -796,30 +822,30 @@ img.author-img {
     }
 
 .user-settings li {
-    float         : none;
-    clear         : both;
-    text-align    : left;
-    padding       : 20px 15px;
-    border-bottom : 1px solid #595959;
+    float: none;
+    clear: both;
+    text-align: left;
+    padding: 10px 15px;
+    border-bottom: 1px solid #595959;
     }
 
 .user-settings .switch label .lever {
-    margin-left   : 0 !important;
-    width         : 60px;
-    height        : 45px;
-    border        : 4px solid #FFFFFF;
-    border-radius : 25px;
+    margin-left: 0 !important;
+    width: 45px;
+    height: 30px;
+    border: 4px solid #FFFFFF;
+    border-radius: 25px;
     }
 
 .user-settings .switch label .lever:after {
-    width  : 30px;
-    height : 30px;
-    top    : 3px !important;
-    left   : 3px !important;
+    width: 18px;
+    height: 18px;
+    top: 2px !important;
+    left: 3px !important;
     }
 
 .switch label input[type=checkbox]:checked + .lever:after {
-    left : 18px !important;
+    left : 16px !important;
     }
 
 .switch label input[type=checkbox]:checked + .lever:after {
