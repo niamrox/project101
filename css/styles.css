@@ -1520,6 +1520,13 @@ select.ya-default-style{
     margin-bottom: 10px;
 }
 
+.card-infinate-scroll{
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
 /*footer*/
 footer {
     position   : fixed;

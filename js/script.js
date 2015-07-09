@@ -136,8 +136,6 @@ jQuery( document ).ready(function( $ ) {
 
     });
 
-
-
 });
 
 //add close button to push menu
@@ -393,6 +391,15 @@ $(function() {
 
 $( ".search-bar-toggle" ).click(function() {
     $( "#morphsearch" ).show( "slow" );
+});
+
+
+//infinite
+jQuery( document ).ready(function( $ ){
+    $('.card-infinate-scroll').jscroll({
+        autoTrigger: true,
+        nextSelector: 'a.load-infinite'
+    });
 });
 
 
