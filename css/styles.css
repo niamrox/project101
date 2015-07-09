@@ -69,6 +69,13 @@ a,a:hover{
     text-decoration: none;
 }
 
+
+/*no-conflict*/
+.row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
+
 /*topbar*/
 .top-bar-wrap {
     padding    : 0;
@@ -1307,10 +1314,10 @@ ul.slider-icons {
 }
 
 .item.search-block-card .card .card-profile-image {
-    width: 68px;
-    height: 68px;
+    width: 55px;
+    height: 55px;
     position: absolute;
-    top: 38px;
+    top: 45px;
     margin-left: 0px !important;
     z-index: 1;
     border-radius: 50%;
@@ -1427,6 +1434,92 @@ select.ya-default-style{
     margin: 0;
 }
 
+.small-card-entry .left-card{
+    background: #fff;
+    padding: 15px;
+}
+
+.small-card-wrap{
+    border-right: 1px solid #ebebeb;
+    float: left;
+    background: none !important;
+    padding-right: 10px;
+}
+
+.small-card-wrap i{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+}
+
+.small-card-wrap-middle i{
+    color: #4d4d4d;
+    font-size: 25px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.card-icon-set{
+    border-left: 1px solid #ebebeb;
+    padding-left: 20px;
+    padding-bottom: 9px;
+}
+
+.card-icon-set ul li{
+    padding: 0 10px;
+    text-align: center;
+}
+
+.card-icon-set ul span{
+    display: block;
+    font-size: 12px;
+}
+
+.fav-icon-right{
+    padding: 8px 15px;
+    background: #fff;
+}
+
+.fav-icon-right i{
+    font-size: 27px;
+    padding: 4px 3px;
+    border-radius: 100%;
+    background: transparent;
+    border: 1px solid #CCCCCC;
+    color: #CCCCCC;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    margin: 7px 0px;
+}
+
+.fav-icon-right:hover i{
+    background: #ff0000;
+    color: #fff;
+    border: none;
+}
+
+.small-card-entry .col-md-10{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-icon-set i.ya-rate{
+    color: #ffff00;
+}
+
+.small-card-entry{
+    margin-bottom: 10px;
+}
+
 /*footer*/
 footer {
     position   : fixed;
@@ -1476,4 +1569,8 @@ ul.footer-nav li {
 .copyright {
     padding : 12px 0;
     }
-
+p.search-copyright{
+    color: #fff;
+    font-size: 12px;
+    line-height: 48px;
+}
