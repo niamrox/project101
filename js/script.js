@@ -403,4 +403,16 @@ jQuery( document ).ready(function( $ ){
 });
 
 
+//infinite
+jQuery( document ).ready(function( $ ){
+    $(window).scroll(function(){
+        var sticky = $('.left-sidebar'),
+            scroll = $(window).scrollTop();
+
+        if (scroll >= 295) sticky.addClass('static');
+        else sticky.removeClass('static');
+    });
+});
+
+
 

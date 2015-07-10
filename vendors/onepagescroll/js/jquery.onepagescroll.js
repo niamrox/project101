@@ -145,7 +145,7 @@
 
         function init() { //初始化
             milieu = miniMilieuTest();
-            $("html,body").css({
+            $(".home").css({
                 "overflow": "hidden",
                 "width": "100%",
                 "height": "100%"

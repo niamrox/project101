@@ -55,12 +55,11 @@ table {
     }
 
 body {
-    height : 100%;
+
     }
 
 .main-body-wrap {
     width    : 100%;
-    height   : 100%;
     position : relative;
     z-index  : 1;
     }
@@ -1385,9 +1384,10 @@ select.ya-default-style{
     height: 30px;
 }
 
+/*left bar style*/
+
 .search-content-body{
     background: #e6e7e8;
-    height: 100%;
     padding: 15px 0;
 }
 
@@ -1434,6 +1434,74 @@ select.ya-default-style{
     margin: 0;
 }
 
+#left-sidebar{
+    position: static;
+    top: auto;
+    height: auto;
+    width: 214.875px;
+}
+
+#left-sidebar.static{
+    position:fixed;
+    top: 70px !important;
+}
+
+.filters-wrap{
+    padding: 10px 0;
+}
+
+.filters-wrap h3{
+    color: #a9abae;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+ul.leftfilter{
+    margin: 10px 0;
+}
+
+ul.leftfilter li a{
+    font-size: 12px;
+    color: #999999;
+}
+
+ul.leftfilter li {
+    background: #FFF;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 8px 6px;
+
+}
+
+
+ul.leftfilter li.blue a,ul.leftfilter li.green a{
+    color: #fff;
+}
+
+ul.leftfilter li:nth-child(2n-1){
+    border-right: 1px solid #F7F7F7;
+}
+
+
+.ya-select-filter {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 0;
+    height: 35px;
+    box-shadow: none;
+    border: 0;
+}
+.filter-list{
+    margin: 10px 0;
+}
+
+.filter-list li{
+    padding: 8px 6px;
+    background: #fff;
+    margin: 10px 0;
+}
+/*right panel small card*/
 .small-card-entry .left-card{
     background: #fff;
     padding: 15px;
@@ -1521,20 +1589,21 @@ select.ya-default-style{
 }
 
 .card-infinate-scroll{
-    height: 350px;
-    overflow-y: scroll;
-    overflow-x: hidden;
 
 }
 
 /*footer*/
 footer {
-    position   : fixed;
+
     bottom     : 0;
     width      : 100%;
     max-height : 72px;
     background : #000000;
     }
+
+html.home footer{
+    position   : fixed !important;
+}
 
 .footer-wrap {
     padding : 10px 0;
