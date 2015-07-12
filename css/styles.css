@@ -1783,6 +1783,42 @@ ul.bottom-tag li a{
     padding: 15px 0;
 }
 
+.masonary-header-block{
+    background: #ffa000;
+    padding-top: 54px;
+}
+
+.masonary-header-block-wrap{
+    padding: 15px 0;
+}
+
+.masonary-header-block i{
+    height: 120px;
+    width: 120px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 120px;
+    border: 1px solid #fff;
+    font-size: 90px;
+    color: #ffa000;
+    display: block;
+    margin-top: 25px;
+}
+
+.masonary-header-block h3{
+    line-height: 70px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 60px;
+}
+
+.masonary-header-block h4{
+    font-size: 25px;
+    color: #fff;
+    line-height: 30px;
+}
+
 /*footer*/
 footer {
 

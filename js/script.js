@@ -403,7 +403,7 @@ jQuery( document ).ready(function( $ ){
 });
 
 
-//infinite
+//Static menu on news page
 jQuery( document ).ready(function( $ ){
     $(window).scroll(function(){
         var sticky = $('.left-sidebar'),
@@ -413,6 +413,19 @@ jQuery( document ).ready(function( $ ){
         else sticky.removeClass('static');
     });
 });
+
+
+//Masonary
+jQuery( document ).ready(function( $ ){
+    $('.masonary-grid').masonry({
+        // options...
+        itemSelector: '.col-md-3',
+        columnWidth: 200
+    });
+});
+
+
+
 
 
 
