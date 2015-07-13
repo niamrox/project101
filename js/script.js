@@ -414,17 +414,17 @@ jQuery( document ).ready(function( $ ){
     });
 });
 
-
 //Masonary
 jQuery( document ).ready(function( $ ){
     $('.masonary-grid').masonry({
-        // options...
-        itemSelector: '.col-md-3',
-        columnWidth: 200
-    });
+        // options
+        itemSelector : '.col-md-3',
+        columnWidth : 300,
+        gutterWidth: 20
+    }).masonry('reload');
 });
 
-
+$(window).load(function(){ $('.masonary-grid').masonry(); });
 
 
 
