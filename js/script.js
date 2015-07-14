@@ -416,16 +416,27 @@ jQuery( document ).ready(function( $ ){
 
 //Masonary
 jQuery( document ).ready(function( $ ){
-    $('.masonary-grid').masonry({
-        // options
-        itemSelector : '.col-md-3',
-        columnWidth : 300,
-        gutterWidth: 20
-    }).masonry('reload');
+    if( typeof(masonry)!=='undefined') {
+        $('.masonary-grid').masonry({
+            // options
+            itemSelector : '.col-md-3',
+            columnWidth : 300,
+            gutterWidth: 20
+        }).masonry('reload');
+        $(window).load(function(){ $('.masonary-grid').masonry(); });
+    }
 });
 
-$(window).load(function(){ $('.masonary-grid').masonry(); });
-
-
-
-
+//Ficha btn toggle
+$(function() {
+    $('.btn-toggle-small-block').click(function(){
+        if($('.expand-view').hasClass('hide')){
+            $('.expand-view').removeClass('hide');
+            $('.expand-view').addClass('visible');
+        } else {
+            $('.expand-view').removeClass('visible');
+            $('.expand-view').addClass('hide');
+        }
+        return false;
+    });
+});
