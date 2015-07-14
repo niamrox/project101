@@ -1839,6 +1839,201 @@ ul.bottom-tag li a{
 }
 
 
+/*ficha page*/
+
+.ficha-header-img{
+    padding: 30px 0;
+}
+
+.no-icon-style{
+    padding: 3px 20px !important;
+}
+
+.no-icon-style i{
+    font-size: 20px !important;
+    border: none !important;
+    vertical-align: middle;
+
+
+}
+
+.ficha-icons-header li{
+    padding: 10px 15px;
+}
+
+.ficha-icons-header i{
+    padding: 3px !important;
+}
+
+.no-icon-style span{
+    display: inline-block !important;
+    padding-top: 0 !important;
+}
+
+.news-block-icon-set a{
+    color: #fff;
+}
+
+.ficha-block .block-title{
+    padding: 0;
+}
+
+.ficha-block .block-title span{
+    font-size: 10px;
+}
+
+.ficha-block .block-title i{
+    font-size: 12px;
+    background: transparent !important;
+    border: none;
+    line-height: 5px;
+}
+
+.ficha-block .block-title .sub-header{
+    display: block;
+}
+
+.ficha-body-wrap{
+    background: #e5e6e5;
+    padding: 20px 0;
+}
+
+
+.icon-holder{
+    background: #fff;
+    padding: 20px 15px;
+}
+
+.icon-set li i{
+    font-size: 30px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 6px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+.icon-holder ul li{
+    padding: 0 24px;
+}
+
+.icon-holder-bottom{
+    background: #fff;
+    padding: 20px 15px;
+    margin: 10px 0;
+}
+
+.icon-holder-bottom .icon-set{
+    float: left;
+    display: inline-block;
+}
+
+.icon-holder-bottom .social-icon-set{
+    display: inline-block;
+    float: right;
+}
+
+.icon-holder-bottom .social-icon-set i{
+    font-size: 17px;
+    border-radius: 100%;
+    padding: 6px;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.icon-holder-bottom .social-icon-set .fa-facebook{
+    background: #163f70;
+}
+
+.icon-holder-bottom .social-icon-set .fa-twitter{
+    background: #00c1ee;
+}
+
+.icon-holder-bottom .social-icon-set .fa-instagram{
+    background: #654a3f;
+}
+
+.icon-holder-bottom .desc{
+    clear: both;
+    margin: 45px -15px 0 -15px;
+    border-top: 1px solid #f7f7f8;
+}
+
+.icon-holder-bottom .desc p{
+    margin: 15px 15px 0 15px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.icon-holder-bottom ul.icon-set li {
+    padding: 0 24px;
+}
+
+.icon-only-bar{
+    background: #fff;
+    padding: 15px;
+}
+
+.icon-only-bar i{
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 2px;
+    vertical-align: middle;
+    background: #a7a9ac;
+    color: #fff;
+}
+
+.meta-block{
+    background: #f99f1c;
+    color:#fff;
+    padding: 15px;
+}
+
+.ficha-small-block-content .meta-block p{
+    display: inline-block;
+}
+
+.ficha-small-block-content .meta-block ul{
+    display: inline-block;
+    float: right;
+}
+
+.ficha-small-block-content .meta-block i{
+    font-size: 20px;
+    background: transparent;
+}
+
+.ficha-small-block .author-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
+
+.ficha-small-block{
+    background: #fff;
+    padding: 15px;
+}
+
+.block-ficha-content p{
+    padding-left: 35px;
+    font-size: 12px;
+}
+
+.block-ficha-content span {
+    padding-left: 30px;
+    font-size: 10px;
+}
+
+.block-ficha-content i{
+    color: #f99f1c;
+}
 
 /*footer*/
 footer {
