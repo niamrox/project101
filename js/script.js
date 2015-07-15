@@ -440,3 +440,72 @@ $(function() {
         return false;
     });
 });
+
+
+//Ficha btn tag more
+$(function() {
+    $('.btn-toggle-tagview').click(function(){
+        if($('li.more-tag').hasClass('hide')){
+            $('li.more-tag').removeClass('hide');
+            $('li.more-tag').addClass('visible');
+        } else {
+            $('li.more-tag').removeClass('visible');
+            $('li.more-tag').addClass('hide');
+        }
+        return false;
+    });
+});
+
+
+$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+});
+
+// Google map
+if ($('#googleMap').length > 0) {
+
+    //set your google maps parameters
+    var $latitude = 48.869319, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
+        $longitude = 2.354261,
+        $map_zoom = 16; /* ZOOM SETTING */
+
+    //google map custom marker icon
+    var $marker_url = 'img/map-marker.png';
+
+    //we define here the style of the map
+    var style = [{
+        "stylers": [{
+            "hue": "#65d3e3"
+        }, {
+            "saturation": -10
+        }, {
+            "gamma": 2.15
+        }, {
+            "lightness": 12
+        }]
+    }];
+
+    //set google map options
+    var map_options = {
+        center: new google.maps.LatLng($latitude, $longitude),
+        zoom: $map_zoom,
+        panControl: true,
+        zoomControl: true,
+        mapTypeControl: false,
+        streetViewControl: true,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        scrollwheel: false,
+        styles: style
+    }
+
+
+    //initialize the contact page map
+    var mainMap = new google.maps.Map(document.getElementById('googleMap'), map_options);
+    new google.maps.Marker({
+        position: new google.maps.LatLng($latitude, $longitude),
+        map: mainMap,
+        visible: true,
+        icon: $marker_url
+    });
+}

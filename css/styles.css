@@ -61,7 +61,6 @@ body {
 .main-body-wrap {
     width    : 100%;
     position : relative;
-    z-index  : 1;
     }
 
 a,a:hover{
@@ -162,7 +161,7 @@ ul.topbar-language li:hover a, ul.topbar-language li:focus a, ul.topbar-language
 
 .navbar-default {
     transition : all 100ms;
-    z-index    : 10300;;
+    z-index    : 999;;
     }
 
 .logo {
@@ -2074,6 +2073,10 @@ ul.bottom-tag li a{
     top: 38px;
 }
 
+.ficha-card-content .card .card-action a{
+    margin-right: 0;
+}
+
 .fitcha-title-header{
     padding: 10px;
     background: #5bba47;
@@ -2089,11 +2092,87 @@ ul.bottom-tag li a{
 .ficha-bottom-tag ul.bottom-tag li{
     padding: 3px 6px;
     font-size: 12px;
+    margin: 5px 0;
 }
 
 .ficha-bottom-tag .news-bottom-tag-wrap{
     padding:10px 0;
 }
+
+.navigation-toggle-tagview {
+    background: #fff;
+    border-top: 1px solid #f0f1f0;
+}
+
+.navigation-toggle-tagview a{
+    color: #000;
+}
+
+.navigation-toggle-tagview i{
+    font-size: 30px;
+}
+
+
+#googleMap {
+    height: 400px;
+}
+
+.map-img{
+    position: relative;
+}
+
+.map-img img{
+    width: 100%;
+}
+
+.map-img .map-img-bottom-block{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    padding:15px;
+    color: #fff;
+}
+
+.map-img .map-img-bottom-block i{
+    font-size: 40px;
+    line-height: 7px;
+}
+
+.map-img .btn-monte{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    padding:15px;
+    color: #fff;
+}
+
+.map-img .btn-monte i{
+    font-size: 40px;
+    line-height: 7px;
+}
+
+.ficha-header-title{
+    padding:10px 15px;
+    margin-top: 10px;
+    background: #ed1c24;
+    color: #fff;
+}
+
+/*modal conflict*/
+
+.modal{
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.modal-content{
+    box-shadow: none !important;
+}
+
 
 /*footer*/
 footer {
