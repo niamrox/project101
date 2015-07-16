@@ -509,3 +509,18 @@ if ($('#googleMap').length > 0) {
         icon: $marker_url
     });
 }
+
+
+//gallery modal
+
+$(document).ready(function(){
+    $("#demo01").animatedModal({
+        color:'#000'
+    });
+});
+
+
+$(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+});
+

@@ -2162,6 +2162,42 @@ ul.bottom-tag li a{
     color: #fff;
 }
 
+.close-animatedModal{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    cursor: pointer;
+
+}
+
+.close-animatedModal i{
+    background: #fff;
+    color: #000;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.pp_overlay{
+    z-index: 9999 !important;
+}
+
+/*map page*/
+
+.map-page .main-body-wrap{
+    height: 100%;
+}
+
+html.map-page,body.map-page{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+
 /*modal conflict*/
 
 .modal{
